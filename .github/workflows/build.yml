@@ -3,6 +3,9 @@ name: "release"
 on: {
     "push": {
         "branches": ["release"],
+    },
+    "workflow_dispatch": {
+        "branches": ["release"],
     }
 }
 
