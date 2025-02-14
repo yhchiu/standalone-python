@@ -14,8 +14,8 @@ jobs: {
         "runs-on": "ubuntu-latest",
         "strategy": {
             "matrix": {
-                "architecture": ["x86_64", "x86"],
-                "version": ["3.12", "3.11", "3.10"],
+                "architecture": ["x86"],
+                "version": ["3.12"],
             },
         },
         "steps": [
